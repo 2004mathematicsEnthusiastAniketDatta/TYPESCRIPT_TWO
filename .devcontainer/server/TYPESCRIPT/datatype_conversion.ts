@@ -12,3 +12,8 @@ console.log(typeof (k));
 
 console.log(k); //NaN
 console.log(Number(null));
+
+let  isLgdIn: Boolean | Number = true;
+
+
+console.log(typeof isLgdIn);
