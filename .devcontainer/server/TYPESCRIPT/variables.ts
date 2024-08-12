@@ -8,7 +8,8 @@ let accountPassword : String = "12345";
 let accountCity : String = "Kolkata";
 
 // accountId = 5.12;
-
+let accountState : String;
+accountState = "West Bengal"
 accountEmail = "aniketdatta@protonmail.com" 
 //console.table(accountId,accountEmail);
 
@@ -19,4 +20,4 @@ console.log(accountCity);
 
 // variable: value storing field or container 
  
-console.table([accountId,accountEmail,accountCity])
+console.table([accountId,accountEmail,accountCity,accountState]);
