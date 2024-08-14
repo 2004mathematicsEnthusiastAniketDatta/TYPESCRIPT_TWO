@@ -41,3 +41,7 @@ console.log(2 > 1);
 //the last thre cases return false when undefined is there?
 // ==
 // console.log("2" === 2)
+
+let isloggedIn =Boolean(isLoggedIn);
+console.log(isloggedIn);
+
