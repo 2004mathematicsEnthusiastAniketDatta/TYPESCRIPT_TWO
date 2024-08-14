@@ -48,4 +48,4 @@ console.log(isloggedIn);
 let booleanIsLoggedIn = Boolean(isloggedIn);
 console.log(booleanIsLoggedIn);
 
-const score = 400;
+const score : Number= 400;
