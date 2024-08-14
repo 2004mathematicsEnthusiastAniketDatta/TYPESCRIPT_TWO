@@ -36,11 +36,11 @@ console.log(2 > 1);
 //the last thre cases return false when undefined is there?
 // ==
 // console.log("2" === 2)
-// let isloggedIn = Boolean(isLoggedIn);
-// console.log(isloggedIn);
-// let booleanIsLoggedIn = Boolean(isloggedIn);
-// console.log(booleanIsLoggedIn);
+let isloggedIn = Boolean(isLoggedIn);
+console.log(isloggedIn);
+let booleanIsLoggedIn = Boolean(isloggedIn);
+console.log(booleanIsLoggedIn);
 const score = 400;
-
 const balance = new Number(100);
 console.log(balance);
+
