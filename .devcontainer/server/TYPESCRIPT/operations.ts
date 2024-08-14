@@ -45,3 +45,5 @@ console.log(2 > 1);
 let isloggedIn =Boolean(isLoggedIn);
 console.log(isloggedIn);
 
+let booleanIsLoggedIn = Boolean(isloggedIn);
+console.log(booleanIsLoggedIn);

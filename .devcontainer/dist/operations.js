@@ -1,4 +1,3 @@
-"use strict";
 let value = 3;
 let negValue = -value;
 // console.log(negValue) 
@@ -23,12 +22,23 @@ let gameCounter = 100;
 console.log(gameCounter);
 console.log(2 > 1);
 console.log(2 > 1);
-// console.log(2 ==1);
-// console.log(2 != 1);
+// let gameCounter = 100;
+// //gameCounter++;
+// ++gameCounter;
+// console.log(gameCounter);
+console.log(2 > 1);
+console.log(2 > 1);
 // console.log(2 == 1);
-// console.log("2" > 1);
-// console.log("02" > 1);
-console.log(null >= 0)
-console.log(null == 0);
-console.log(null >= 0);
-console.log("2" == 2);
+// console.log(2 != 1);
+// console.log(2 == 1); false
+// console.log("2" > 1); false
+//console.log(null >= 0); true
+//the last thre cases return false when undefined is there?
+// ==
+// console.log("2" === 2)
+let isLoggedIn = "Typescriptor";
+let isloggedIn = Boolean(isLoggedIn);
+console.log(isloggedIn);
+let booleanIsLoggedIn = Boolean(isloggedIn);
+console.log(booleanIsLoggedIn);
+
