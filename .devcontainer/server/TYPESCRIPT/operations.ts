@@ -40,4 +40,4 @@ console.log(2 > 1);
 //console.log(null >= 0); true
 //the last thre cases return false when undefined is there?
 // ==
-// console.log("2" == 2)
+// console.log("2" === 2)
