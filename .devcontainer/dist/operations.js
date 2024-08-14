@@ -41,4 +41,9 @@ let isloggedIn = Boolean(isLoggedIn);
 console.log(isloggedIn);
 let booleanIsLoggedIn = Boolean(isloggedIn);
 console.log(booleanIsLoggedIn);
+let someNumber = 33;
+let StringNumber = String(33);
+console.log(someNumber);
+console.log(StringNumber);
+console.log(typeof StringNumber);
 
