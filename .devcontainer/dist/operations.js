@@ -16,16 +16,16 @@ console.log(+true);
 console.log(+"");
 let num1, num2, num3;
 num1 = num2 = num3 = 2 + 2;
-// let gameCounter = 100;
-// //gameCounter++;
-// ++gameCounter;
-// console.log(gameCounter);
+let gameCounter = 100;
+//gameCounter++;
+++gameCounter;
+console.log(gameCounter);
 console.log(2 > 1);
 console.log(2 > 1);
-// let gameCounter = 100;
-// //gameCounter++;
-// ++gameCounter;
-// console.log(gameCounter);
+let gameCounter = 100;
+//gameCounter++;
+++gameCounter;
+console.log(gameCounter);
 console.log(2 > 1);
 console.log(2 > 1);
 // console.log(2 == 1);
@@ -36,11 +36,11 @@ console.log(2 > 1);
 //the last thre cases return false when undefined is there?
 // ==
 // console.log("2" === 2)
-// let isloggedIn = Boolean(isLoggedIn);
-// console.log(isloggedIn);
-// let booleanIsLoggedIn = Boolean(isloggedIn);
-// console.log(booleanIsLoggedIn);
+let isloggedIn = Boolean(isLoggedIn);
+console.log(isloggedIn);
+let booleanIsLoggedIn = Boolean(isloggedIn);
+console.log(booleanIsLoggedIn);
 const score = 400;
 const balance = new Number(100);
 console.log(balance);
-
+export {};
