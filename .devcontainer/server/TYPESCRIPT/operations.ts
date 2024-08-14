@@ -49,3 +49,5 @@ let booleanIsLoggedIn = Boolean(isloggedIn);
 console.log(booleanIsLoggedIn);
 
 const score : Number= 400;
+const balance = new Number(100);
+console.log(balance);

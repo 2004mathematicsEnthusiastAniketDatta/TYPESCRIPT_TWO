@@ -42,3 +42,5 @@ console.log(2 > 1);
 // console.log(booleanIsLoggedIn);
 const score = 400;
 
+const balance = new Number(100);
+console.log(balance);
