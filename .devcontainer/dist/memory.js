@@ -1,3 +1,4 @@
+"use strict";
 // ts transpiles the typescript code into javascript code
 /*The memory layout of a JavaScript program typically consists of the following components:
 
