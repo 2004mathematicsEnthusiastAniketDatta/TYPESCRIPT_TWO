@@ -816,14 +816,63 @@ info({name:"foo",age:25,key: "arv"});
 //generic class
 class objmaker<T>{
   constructor(key: T){}
-
 }
 let variable= new objmaker<string>("hey");
 let variable0= new objmaker("hey");
 console.log(variable,variable0);
 
+//Type Assertions
+//Type casting
+//Non-null assertion operator
+//type assertion  : this is required when we know more about the type of the variable than typescript
+// let typeassert:any =12;
+//console.log((typeassert as string).charAt(0));
+//(typeassert as string).charAt(0);
+// <number>typeassert
+// console.log(typeof typeassert)
+let typeassert:null | undefined | string;
+typeassert="hello";
+console.log( typeassert!.charAt(0));
+ typeassert!.charAt(0);
 
-//Modules
-//Exporting and importing modules
-//Default exports
+//Type Guards
+//Using typeof and instanceof
+//Partial , required and readonly
+function abdv(arg: string|number){
+if (typeof arg === "number"){
+return "number";
+}
+else if(typeof arg==="string"){
+return "string";
+}
+else{
+      throw new Error("pagal hu mein");
+}
+}
+console.log(abdv(12));
+console.log(abdv("hello"));
+console.log(abdv(undefined));
+
+//instanceof
+class TVRemote{
+  switchTvoff(){
+    console.log("Switching off tv");
+  }
+}
+class CarRemote{
+  switchCarOff(){
+    console.log("Switch off car");
+  }
+}
+const tv=new TVRemote();
+const car=new CarRemote();
+function switchoffkaro(device:TVRemote | CarRemote){
+  if(device instanceof TVRemote){
+    device.switchTvoff();
+  }
+  else if(device instanceof CarRemote){
+    device.switchCarOff();
+  }
+}
+switchoffkaro(tv);
 
